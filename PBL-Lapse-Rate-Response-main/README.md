@@ -36,6 +36,5 @@ For best reporting, ensure filenames are consistent and have same number of char
 
 NOTE: Errors may occur if different package versions are released. It may be neccessary to perform debugging if packages depricate or update.
 
-For more information, contact Alex Chambers 
-chambers.alexander00@gmail.com
+
  
