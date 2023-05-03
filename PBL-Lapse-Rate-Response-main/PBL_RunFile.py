@@ -25,11 +25,11 @@ and "AlgorithmFunctions"folder to load subprograms properly
 This program has been developed for the use of the NASA-ISGC 
 for the purposes of the National Eclipse Ballooning Project
 author: Chambers,Alex
-contact: chambers.alexander00@gmail.com
+
 """
 import os
 import time
-import readGrawProfile_alg2 as rgp
+import readGrawProfile_alg as rgp
 import AlgorithmFunctions as af
 import numpy as np
 
