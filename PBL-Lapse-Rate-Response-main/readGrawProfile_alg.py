@@ -78,7 +78,7 @@ def readProfile(dataSource,subdirs,path,file):
             if isProfile:  # Read in the data and perform analysis
                 
                 # Fix a format that causes a table reading error
-                # contents = contents.replace("Virt. Temp", "Virt.Temp")
+                contents = contents.replace("UTC Time", "UTC")
                 contents = contents.split("\n")
                 contents.pop(1)  # Remove units from temp file
                 index = -1
