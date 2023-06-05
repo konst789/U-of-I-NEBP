@@ -55,7 +55,7 @@ def plotLines(pblData,day1,day2,totality,first_contact,last_contact):
     ax.axvspan(first_contact,last_contact,color='green',alpha=0.3)
     ax.legend()
     
-    plt.title("Calculated PBL Heights for Eclipse Campaign",size=15,weight='bold')
+    #plt.title("Calculated PBL Heights for Eclipse Campaign",size=15,weight='bold')
     plt.ylabel("Altitude AGL [m]",size=12,weight='bold')
     plt.xlabel("Launch Time [UTC]",size=12,weight='bold')
     ax.xaxis.set_major_formatter(md.DateFormatter('%H:%M'))
@@ -76,7 +76,7 @@ def plotLinesMarker(pblData,day1,day2,totality,first_contact,last_contact):
     ax.axvspan(first_contact,last_contact,color='green',alpha=0.3)
     ax.legend()
     
-    plt.title("Calculated PBL Heights for Eclipse Campaign")
+    #plt.title("Calculated PBL Heights for Eclipse Campaign")
     plt.ylabel("Altitude AGL [m]")
     plt.xlabel("Launch Time [UTC]")
     ax.xaxis.set_major_formatter(md.DateFormatter('%H:%M'))
@@ -98,7 +98,7 @@ def plotScatter(pblData,day1,day2,totality,first_contact,last_contact):
     ax.axvspan(first_contact,last_contact,color='green',alpha=0.3)
     ax.legend()
     
-    # plt.title("Calculated PBL Heights for Eclipse Campaign",size=18,weight='bold')
+    plt.title("Calculated PBL Heights for Eclipse Campaign",size=18,weight='bold')
     plt.ylabel("Altitude AGL (m)",size=15)
     plt.xlabel("Launch Time (UTC)",size=15)
     ax.xaxis.set_major_formatter(md.DateFormatter('%H:%M'))
